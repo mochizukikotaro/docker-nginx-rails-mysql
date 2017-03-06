@@ -4,8 +4,10 @@
 $ git clone git@github.com:mochizukikotaro/docker-rails-mysql.git
 $ cd docker-rails-mysql
 
+$ docker-compose build
+
 $ docker-compose run web rails db:create
-> password
+>password
 
 $ docker-compose up
 ```
