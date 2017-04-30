@@ -8,7 +8,8 @@ $ docker-compose build
 $ docker-compose run web rails db:create
 >password
 
-$ docker-compose up
+$ docker-compose up -d
+$ docker-compose exec web rails s -b 0.0.0.0
 ```
 
 Access `localhost:3000`, and see
