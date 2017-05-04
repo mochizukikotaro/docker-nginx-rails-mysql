@@ -4,12 +4,12 @@
 $ git clone git@github.com:mochizukikotaro/docker-rails-mysql.git; cd $(basename $_ .git)
 
 $ docker-compose build
-
-$ docker-compose run web rails db:create
->password
-
 $ docker-compose up -d
-$ docker-compose exec web rails s -b 0.0.0.0
+
+$ docker-compose exec app bundle install
+$ docker-compose exec app rails db:create
+>password
+$ docker-compose exec app rails s -b 0.0.0.0
 ```
 
 Access `localhost:3000`, and see
