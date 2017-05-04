@@ -13,4 +13,5 @@ $ docker-compose exec app rails db:create
 
 Access `localhost:8080`, and see
 
-![2017-03-05 17 06 23](https://cloud.githubusercontent.com/assets/7911481/23585614/1fb8ccb4-01c6-11e7-8c97-b6ed781d014f.png)
+
+<img width="694" alt="2017-05-04 14 27 24" src="https://cloud.githubusercontent.com/assets/7911481/25691452/ffb03b20-30d5-11e7-8a77-cdce940b3b10.png">
