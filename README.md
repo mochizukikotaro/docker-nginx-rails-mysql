@@ -9,6 +9,7 @@ $ docker-compose up -d
 $ docker-compose exec app bundle install
 $ docker-compose exec app rails db:create
 >password
+$ dokcer-compose exec app puma
 ```
 
 Access `localhost:8080`, and see
