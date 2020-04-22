@@ -1,7 +1,7 @@
 version: '3'
 services:
   db:
-    image: mysql
+    image: mysql:5.7
     volumes:
       - data:/var/lib/mysql
       - ./mysql.cnf:/etc/mysql/conf.d/mysql.cnf
