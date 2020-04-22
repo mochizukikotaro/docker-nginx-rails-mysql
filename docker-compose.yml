@@ -16,7 +16,9 @@ services:
     depends_on:
       - app
   app:
-    build: .
+    build:
+      context: .
+      dockerfile: ./docker/app/Dockerfile
     volumes:
       - .:/myapp
       - bundle:/usr/local/bundle
